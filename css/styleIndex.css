@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;   
+}
+nav {
+    position: fixed;
+    background: #0000007e;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+}
+span#logoC {
+    margin-left: 7%;
+    height: 100%;
+    width: 7%;
+    border: none;
+    float: left;
+    background: url(../img/logo-icons/onlinelogomaker-091720-0229-0466-2000-transparent.png) no-repeat center;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.ativacao, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+
+}
+@media (max-width: 952px){
+    div#containerPrincipal{
+        height: 100%;
+        font-size: 105%;
+    }
+    span#logoC {
+        width: 16%;
+    }
+    label.logo {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+#section-1 {
+    background: url('../img/826.jpg') no-repeat; /* <a href='https://br.freepik.com/fotos/venda'>Venda foto criado por welcomia - br.freepik.com</a> */
+    background-size: cover;
+    height: 100vh;
+    z-index: 55;
+    position: relative;
+}
+#containerPrincipal{
+    color: white;
+    font-size: 250%;
+    line-height: 600px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    border: 3px black solid;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#section-2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #eeb076;
+    position: relative;
+    align-items: center;
+    z-index: 150;
+}
+#section-Principal {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 75%;
+    margin-top: 0;
+    border: none;
+    background-color: #fff;
+}
+#quadro1 {
+    margin-top: 8%;
+    width: 40%;
+    height: 100%;
+    border: 15px rgba(204, 203, 203, 0.733) solid;
+    float: left;
+    border-radius: 5px;
+    background-image: url('../img/Montanha\ Motivacional\ Cartaz.jpg');
+    background-size: cover;
+    -webkit-box-shadow: -14px 10px 12px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 10px 12px -1px rgba(0,0,0,0.75);
+    box-shadow: -14px 10px 12px -1px rgba(0,0,0,0.75);
+
+}
+#quadro2 {
+    border: none;
+    width: 430px;
+    height: 83%;
+    font-size: 12pt;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+#quadroDoQuadro{
+    margin-top: 8%;
+    font-family: 'Roboro', sans-serif;
+    text-indent: 30px;
+    line-height: 15pt;
+    text-align: justify;
+    text-decoration: none;
+    width: 85%;
+    height: 83%;
+    float: left;
+    margin-top: 8%;
+}
+#G1{
+    border: none;
+    background: none;
+    color: #0082e6;
+    text-decoration: underline;
+}
+#containerSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #112d42;
+    z-index: 150;
+}
+#containerSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+.container {
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+.container .contactinfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+.container .contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+}
+.container .contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.container .contactinfo .info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+.container .contactinfo .info li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+.container .contactinfo .info li span:nth-child(2) {
+   color: #fff;
+   margin-left: 10px;
+   font-weight: 300;
+   opacity: 0.5;
+}
+.container .contactinfo .info li:hover .spanInfo:nth-child(1) img,
+.container .contactinfo .info li:hover .spanInfo:nth-child(2) {
+    opacity: 1;
+    filter: invert(0);
+}
+.container .contactinfo .sci {
+    position: relative;
+    display: flex;
+}
+.container .contactinfo .sci li {
+    list-style: none;
+    margin-right: 16px;
+}
+.container .contactinfo .sci li .topAncor {
+    text-decoration: none;
+}
+.container .contactinfo .sci li .topAncor img{
+    opacity: 0.5;
+    filter: invert(1);
+}
+.container .contactinfo .sci li:hover .topAncor img {
+    opacity: 1;
+    filter: invert(0);
+}
+.container .contactForm {
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 250px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+.container .contactForm h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.container .contactForm .formBox .inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+}
+.container .contactForm .formBox .inputBox.w50 {
+    width: 47%;
+}
+.container .contactForm .formBox .inputBox.w100 {
+    width: 100%;
+}
+.container .contactForm .formBox .inputBox input,
+.container .contactForm .formBox .inputBox textarea {
+    width: 100% !important; 
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+.container .contactForm .formBox .inputBox textarea {
+    min-height: 120px;
+}
+.container .contactForm .formBox .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.container .contactForm .formBox .inputBox input:focus ~ span,
+.container .contactForm .formBox .inputBox textarea:focus ~ span,
+.container .contactForm .formBox .inputBox input:valid ~ span,
+.container .contactForm .formBox .inputBox textarea:valid ~ span {
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff568c;
+}
+.container .contactForm .formBox .inputBox input[type ="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+.container .contactForm .formBox .inputBox input[type ="submit"]:hover {
+    background: #ff568c;
+}

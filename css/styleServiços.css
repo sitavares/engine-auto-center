@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #323232;
+    border: none;
+}
+body {
+    background-image: url('../img/reparo.jpg');
+    background-size: cover;
+    position: absolute;
+}
+form {
+    background-color: rgba(27, 155, 255, 0.3);
+    color: white;
+	width: 700px;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: none;
+    padding: 25px;
+	margin-top: 100px;
+}
+#sombra1 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+legend {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+#n1 {
+    width: 573px;
+    height: 35px;
+    margin-left: 35px;
+}
+.jun {
+    display: inline;
+    position: relative;
+    width: 47%;
+    padding: 35px;
+    height: 35px;
+}
+.jun2 {
+    display: inline;
+    position: relative;
+    width: 47%;
+    padding: 35px;
+    height: 35px;
+}
+label {
+    color: white;
+}
+label p {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 270px;
+    color: white;
+}
+input {
+    border-bottom: 2px solid#e60084;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+form .km {
+    width: 155px;
+    margin-left: 35px;
+}
+form textarea {
+    width: 573px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #e60084;
+    margin-left: 35px;
+}
+form .botao {
+    border: 1px solid #e60084;
+    width: 150px;
+    margin-left: 245px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+div h1 {
+    text-align: center;
+    color: white;
+    margin-top: -190px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+.cont-2 {
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.cont-2 h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+div .serv {
+    border: 1px solid black;
+    border-top: none;
+    height: 500px;
+    margin-top: 125px;
+    border-radius: 5px;
+}
+.serv h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+div .sombra {
+    box-shadow: 2px 2px 2px #323232;
+    -webkit-box-shadow: 2px 2px 2px #323232;
+    -moz-box-shadow: 2px 2px 2px #323232;
+}
+.t-1 {
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.t-2 {
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 105px;
+    margin-top: 40px;
+    cursor: pointer;
+}

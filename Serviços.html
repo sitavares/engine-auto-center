@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Nossos Serviços</title>
+		<link rel="shortcut icon" href="img/logo-icons/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/Sstyle.css">
+		<link rel="stylesheet" href="css/styleServiços.css">
+		<link rel="stylesheet" href="css/styleIndex.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="js/pace.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	</head>
+	<body>
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+			<span id="logoC"></span><label class="logo">Engine Auto-center</label>
+			<ul>
+			   <li><a href="index.html" class="ativacao" href="#">Home</a></li> 
+			   <li><a href="#section-2">Sobre nós</a></li> 
+			   <li><a href="#containerSection">Contato</a></li> 
+			   <li><a href="veiculos.html">Veículos</a></li>
+			   <li><a href="serviços.html">Serviços</a></li> 
+			   <li><a href="login.html">Login</a></li>
+			   <li><a href="Cadastro.html">Cadastre-se</a></li>  
+			</ul>
+		</nav>
+		
+		<div class="con-1">
+			<form action="servicos.php" method="post" enctype="multipart/form-data" id="sombra1">
+				<fieldset>
+					<legend>Contrate Nossos Serviços</legend><br>
+					<div class="n1">
+					<input  type="text" name="nome" required placeholder="Digite seu Nome:" maxlength="80" size="30" id="n1">
+					</div>
+					<div class="jun">
+					<input  type="text" name="email" required placeholder="Digite seu E-mail:" maxlength="100" size="30">
+					</div>
+					<div class="jun">
+					<input  type="text" name="numeroContato" required placeholder="Teleforne: Ex. (xx) 9xxxx-xxxx" size="30">
+					</div>
+					<div class="jun2">                    
+					<input  type="text" name="modeloCarro" required placeholder="Insira o modelo do carro:" maxlength="20" size="30">
+					</div>
+					<div class="jun2">
+					<input type="text" name="anoCarro" required placeholder="Insira o ano do carro:" maxlength="4" size="30">
+					</div>
+					<div class="q1">
+					<input  class="km" type="text" name="quilometragem" required placeholder="Quilometragem:" maxlength="6" size="30">
+					</div>
+					<div class="i1">
+					<label for="informações"><p>Informações: </p></label><br>
+					<textarea   name="InformacoesCarro" rows="10" cols="35" placeholder="Coloque as informações sobre o que deseja fazer..."></textarea> 
+					</div><br>
+					<input class="botao" type="submit" value="Enviar">
+				</fieldset>
+			</form>
+		</div>
+		<div class="cont-2">
+				<h1>Confira abaixo alguns de nossos serviços</h1>
+			<div class="serv sombra">
+				<div class="t-1">
+					<h3>Troca de óleo</h3>
+					<img src="./img/oleo.jpg" />
+				</div>
+				<div class="t-1">
+					<h3>Manutenção do motor</h3>
+					<img src="./img/motor.jpg" /><br>
+				</div>
+				<div class="t-1">
+					<h3>Troca de air bag</h3>
+					<img src="./img/airbag.jpg" />
+				</div>
+				<div class="t-2">
+					<h3>Troca de Embreagem</h3>
+					<img src="./img/Embreagem.jpg" /><br>
+				</div>
+				<div class="t-2">
+					<h3>Troca de pneu</h3>
+					<img src="./img/pneu.png" />
+				</div>
+				<div class="t-2">
+					<h3>Instalação de alarme</h3>
+					<img src="./img/alarme.png" />
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

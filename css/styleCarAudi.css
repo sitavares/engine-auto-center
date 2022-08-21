@@ -1,0 +1,33 @@
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+main .audi {
+    margin-top:  30px;
+    margin-left: 50px;
+}
+main #a1 {
+    width: 450px;
+    height: 400px;
+    border: 1px solid gray;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+main #a2 {
+    width: 450px;
+    height: 400px;
+    float: right;
+    border: 1px solid grey;
+    margin-top: -400px;
+    margin-right: 70px;
+}
+div #a1 #c1 {
+    font-weight: bold;
+    margin-left: 130px;
+    cursor: pointer;
+}
+div #a2 #c2 {
+    font-weight: bold;
+    margin-left: 130px;
+    cursor: pointer;
+}
+

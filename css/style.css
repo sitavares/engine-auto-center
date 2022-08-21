@@ -1,0 +1,113 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #323232;
+    border: none;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #E60084;
+}
+/* Fundo */
+body {
+    padding-top: 5vh; /* visualização vertical -> 5% da tela */
+    background-image: url('../img/car-1149997_1280.jpg');
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+/* form */
+#containerPrincipal {
+    width: 500px;
+    margin: 0px auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+    padding: 25px;
+}
+
+#containerPrincipal h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /* adaptada ao elemento root */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caixaInteira {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.meiaCaixa {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.espaco {
+    margin-right: 2.5%;
+}
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+  
+  input:focus {
+    border-color: #3343d3;
+}
+  
+input[type="submit"] {
+    background-color: #3343d3;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+  
+  #aceito {
+    margin-right: 5px;
+}
+  
+  #aceito, #aceito-label {
+    display: inline-block;
+    width: auto;
+}
+
+  .Modelo {
+    display: none;
+}
+  #voltar {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 952px){
+    div#containerPrincipal {
+      width: 100%;
+      height: 100%;
+    }     
+}
